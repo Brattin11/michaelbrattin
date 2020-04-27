@@ -35,6 +35,19 @@ li {
   align-items: center
 } */
 
+.invisible-link {
+  height: 50vw;
+  width: 50vw
+}
+
+/* .invisible-link:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 10px;
+  margin: 5rem;
+} */
+
 #landing {
  height: 100vh;
  background-image: url("landing-mobile.png");
@@ -57,7 +70,13 @@ li {
 }
 
 @media only screen and (min-width: 767px) {
+  .invisible-link {
+    height: 60vh;
+    width: 60vh;
+  }
+
   #landing {
     background-image: url("landing.png");
+    flex-direction: row;
   }
 }
