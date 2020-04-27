@@ -8,6 +8,14 @@ body, html {
   background-color: black;
 }
 
+body {
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 li {
   float: left;
