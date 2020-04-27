@@ -36,17 +36,17 @@ li {
 } */
 
 .invisible-link {
-  height: 50vw;
-  width: 50vw
+  height: 50vh;
+  width: 100vw
 }
 
-/* .invisible-link:hover {
+.invisible-link:hover {
   border-style: solid;
   border-width: 2px;
   border-color: gray;
   border-radius: 10px;
   margin: 5rem;
-} */
+}
 
 #landing {
  height: 100vh;
