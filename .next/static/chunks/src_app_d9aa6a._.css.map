@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/michaelbrattin/Documents/workspace/michaelbrattin/src/app/HighlightBox/styles.module.scss.module.css"],"sourcesContent":[".highlightBox{width:65vw;border-radius:3px;display:flex;flex-direction:column;justify-content:center;padding:10px}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///Users/michaelbrattin/Documents/workspace/michaelbrattin/src/app/ContentSection/styles.module.scss.module.css"],"sourcesContent":[".headerSection{font-size:60px}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/michaelbrattin/Documents/workspace/michaelbrattin/src/app/HighlightBox/styles.module.scss.module.css"],"sourcesContent":[".highlightBox{width:65vw;border:1px solid var(--foreground);border-radius:3px;display:flex;align-items:center;justify-content:center}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 9, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
