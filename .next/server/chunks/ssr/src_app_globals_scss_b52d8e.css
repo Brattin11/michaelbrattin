@@ -6,11 +6,11 @@
 }
 
 :root {
-  --background: #141413;
-  --foreground: #f8faf0;
+  --background: #f8faf0;
+  --foreground: #141413;
 }
 
-@media (prefers-color-scheme: dark) {
+@media only screen and (width <= 600px) {
   :root {
     --background: #141413;
     --foreground: #f8faf0;
@@ -31,6 +31,17 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/_next/static/media/Erin-Michael.bcef5737.JPG");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+@media only screen and (width <= 600px) {
+  body {
+    background-image: none;
+  }
 }
 
 main {
