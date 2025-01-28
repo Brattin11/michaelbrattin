@@ -30,15 +30,16 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  @media only screen and (max-width: 600px) {
-    background-image: none;
-  }
   height: 100%;
 }
 
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  @media only screen and (min-width: 600px) {
+    height: 75vh;
+  }
 }
 
 a {
